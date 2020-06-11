@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<title>teste</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<meta name="description" content="teste" />
+		<meta property="og:site_name" content="teste" />
+		<meta property="og:title" content="teste" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="teste" />
+		<link href="https://fonts.googleapis.com/css?family=Baloo:400,400italic,700,700italic%7CAssistant:400,400italic,700,700italic%7CGloria+Hallelujah:400,400italic,700,700italic%7CSource+Sans+Pro:400,400italic,700,700italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="assets/main.css" />
+		<noscript><link rel="stylesheet" href="assets/noscript.css" /></noscript>
+	</head>
+	<body onload="calcular()" class="is-loading">
+		<div id="wrapper">
+			<div id="main">
+				<div class="inner">
+					<div id="image02" class="image">
+						<img src="assets/images/image02.png" alt="" />
+					</div>
+					<div id="container02" class="container default">
+						<div class="inner">
+							<p id="text06">Seja bem vindo!</p>
+							<p id="text07">Faça seu pedido em poucos cliques</p>
+							<div id="image01" class="image">
+								<span class="deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA3NTcgNzU3IiB3aWR0aD0iNzU3IiBoZWlnaHQ9Ijc1NyIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0idHJhbnNwYXJlbnQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/image01.png" alt="" /></span>
+							</div>
+							<p id="nomepizza">Especial Mista</p>
+							<p id="despizza">Pizza Grande 8 fatias com até 3 sabores - será cobrado o valor da pizza inteira mais cara</p>
+							<h2 id="precopizza">R$ 0,00</h2>
+							<form enctype="multipart/form-data" id="form06" method="post" action="#" oninput="calcular()">
+								<div class="inner">
+									<div class="field">
+										<select name="sabor1" id="form06-sabor1" required>
+											<option value="0.00" disabled selected>PIZZA INTEIRRA</option>
+											<option value="32.90">Calabresa</option>
+											<option value="27.20">Mussarela</option>
+											<option value="30.00">Portuguesa</option>
+											<option value="29.10">Frango Catupiry</option>
+											<option value="39.90">Quatro Queijos</option>
+											<option value="12.00">Banana Mix</option>
+										</select>
+									</div>
+									<div class="field">
+										<select name="sabor2" id="form06-sabor2" required>
+											<option value="0.00" >MEIO A MEIA</option>
+											<option value="32.90">Calabresa</option>
+											<option value="27.20">Mussarela</option>
+											<option value="30.00">Portuguesa</option>
+											<option value="29.10">Frango Catupiry</option>
+											<option value="39.90">Quatro Queijos</option>
+											<option value="12.00">Banana Mix</option>
+										</select>
+									</div>
+									<div class="field">
+										<select name="sabor3" id="form06-sabor3" required>
+											<option value="0.00" >3 SABORES </option>
+											<option value="32.90">Calabresa</option>
+											<option value="27.20">Mussarela</option>
+											<option value="30.00">Portuguesa</option>
+											<option value="29.10">Frango Catupiry</option>
+											<option value="39.90">Quatro Queijos</option>
+											<option value="12.00">Banana Mix</option>
+										</select>
+									</div>
+
+								</div>
+							</form>
+						
+						</div>
+					</div>
+					
+								<div id="divibordas">
+					<h2 id="text11">+ bordas</h2>
+					<div id="container05" class="container default">
+						<div class="inner">
+							<p id="text17">Escolha uma Borda</p>
+							<p id="nomeborda">Sem bordas</p>
+							<p id="precoborda">R$ 0,00</p>
+							<form enctype="multipart/form-data" id="form05" method="post" action="#" oninput="calcular()">
+								<div class="inner">
+									<div class="field">
+										<select name="borda" id="form05-borda" required>
+											<option value="0.00">SEM BORDAS</option>
+											<option value="4.90">Catupiry</option>
+											<option value="6.50">Mussarela</option>
+											<option value="3.30">Requeijão</option>
+											<option value="7.00">Nutella</option>
+										</select>
+									</div>
+									
+								</div>
+							</form>
+						</div>
+					   </div>
+					</div>
+					
+					<h2 id="text01">+ bebida</h2>
+					<div id="container03" class="container default">
+						<div class="inner">
+							<p id="text04">Escolha uma bebida</p>
+							<div id="fotobebida" class="image">
+								<span >
+									<img src="assets/images/icone-bebida.png" id="bebidafoto" alt="" />
+							</div>
+							<p id="nomebebida">Coca cola 600ml.</p>
+							<p id="precobebida">R$ 0,00</p>
+							<form enctype="multipart/form-data" id="form03" method="post" action="#" oninput="calcular()">
+								<div class="inner">
+									<div class="field">
+										<select name="bebida" id="escolhebebida" required>
+											<option value="0.00">SEM BEBIDAS</option>
+											<option value="3.70">Caca-Cola Lata 360 ml.</option>
+											<option value="8.20">Coca-Cola 2 Litros</option>
+											<option value="4.30">Coca-Cola 600 ml</option>
+								
+										</select>
+									</div>
+									
+								</div>
+							</form>
+						</div>
+					</div>
+			
+					<div id="container04" class="container default">
+						<div class="inner">
+							<p id="text14">Valor do pedido</p>
+
+							<h2 id="soma">R$ 0,00</h2>
+						</div>
+					</div>
+					<div id="container01" class="container default">
+						<div class="inner">
+							<p id="text20">Nome e endereço</p>
+							<form enctype="multipart/form-data" id="form01">
+								<div class="inner">
+									<div class="field">
+										<input  type="text" name="nome" id="form01-nome" placeholder="Seu nome" maxlength="256" required />
+									</div>
+									<div class="field">
+										<input type="text" name="endereco" id="form01-endereco" placeholder="Endere&ccedil;o de entrega" maxlength="256" required />
+									</div>
+									<div >
+								
+										
+									</div>
+								<ul id="buttons01" class="buttons">
+								<li>
+									<a href="#" class="button n01" onclick="envia()"><svg><use xlink:href="assets/icons.svg#whatsapp"></use></svg><span class="label">Pedir pelo Whats</span></a>
+								</li>
+							</ul>
+								</div>
+							</form>
+						</div>
+					</div>
+					<p id="text19">pizza do dadá</p>
+					<p id="text05"><span>Horário de atendimento:</span><br /><span><strong>TER à DOM dás 19 às 1:00 hs.</strong></span></p>
+				</div>
+			</div>
+		</div>
+		<script src="assets/main.js"></script>
+	</body>
+</html>
